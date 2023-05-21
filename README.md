@@ -57,11 +57,17 @@ defective_count - amount of defects produced at the given time (shown as a decim
  
  __2.__ Sort the data in ascending order by __timestamp__. 
  
- __3.__ __Aggregate__ the __units__ produced and __units_target__ by __cumulative sum__ __grouped__ by __machine_manufacturer_id__ column.
+ __3.__ __Aggregate__ the __units__ produced and __units_target__ columns by __cumulative sum__ , __grouped__ by __machine_manufacturer_id__ column.
  
  __4.__ Select the __machine_manufacturer_id__ column as the first column.
  
- __5.__ __OEE__ is the 
+ __5.__ __OEE__ is the number of units produced divided by the cumulative number of expected units produced. Take these two columns created in step 3 and divide      __units_cumulative_sum__ by __units_target_cumulative_sum__ , name the column __OEE_divide__. 
+ 
+ __6.__  Now multiply __OEE_DIVIDE__ column by 100 in order to get __OEE__ as a percentage.
+ 
+ __7.__ Drop the columns __units_target_cumulative_sum__, __units_cumulative_sum__ and __OEE_divide__ as they were only needed to calculate __OEE__. 
+ 
+ __8.__ Create and execute a DataBrew job for the transformations applied. Store the job's output in a __PARQUET__ file format with __snappy__ compression in __S3__.
 
 
 
