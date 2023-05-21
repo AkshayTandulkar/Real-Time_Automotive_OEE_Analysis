@@ -119,11 +119,12 @@ __2.__ In the __box plot__ from the __Figure 3__ we can identify anything differ
        outliers from the box plot display. We can see here that __line 1 machine 5__ had different operating characteristics than the other machines during the time period we are
        looking.
        
-__3.__ We can further investigate to determine, why __line 1 machine 5__ had such different operating parameters. We can add a table visual to see all the operators that have worked          on __line 1 machine 5__. 
+__3.__ We can further investigate to determine, why __line 1 machine 5__ had such different operating parameters. We can add a table visual to see all the operators that have worked          on __line 1 machine 5__. In the __Figure 4__ below we can see that __John__ is responsible for many more defects than his colleagues. 
 
 ![image](https://github.com/AkshayTandulkar/Real-Time_Automotive_OEE_Analysis/assets/42748797/df91fe4e-cc2b-4e0f-90e2-32e4b64a5f89)
+<p align="center"> <b> Figure 4 </b> </p>
 
-<p align="center"> <b> Figure 3 </b> </p>
+In conclusion it was recommended that John must receive more training to reduce the overall amounts of defects. 
 
 
  
