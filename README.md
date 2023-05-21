@@ -97,13 +97,35 @@ __defective_count__ - amount of defects produced at the given time (shown as a d
  __3.__ Create __Dashboard__ to view and analyze historical data.
  
  ![image](https://github.com/AkshayTandulkar/Real-Time_Automotive_OEE_Analysis/assets/42748797/bf742092-bee4-4d6c-a93f-d3ac5a51f6cd)
- <p align="center"> Figure 1 </p>
+ <p align="center"> <b> Figure 1 </b> </p>
  
- ![image](https://github.com/AkshayTandulkar/Real-Time_Automotive_OEE_Analysis/assets/42748797/142db198-9716-40d7-8251-c0688cb85bb6)
- <p align="center"> Figure 2 </p>
+ ![image](https://github.com/AkshayTandulkar/Real-Time_Automotive_OEE_Analysis/assets/42748797/1694afb8-065c-43d5-a06b-a5d5c383280c)
+ <p align="center"> <b> Figure 2 </b> </p>
+ 
+ ![image](https://github.com/AkshayTandulkar/Real-Time_Automotive_OEE_Analysis/assets/42748797/cf219fb4-be12-4ea3-b93e-013fcdce1509)
+  <p align="center"> <b> Figure 3 </b> </p>
+  
+  
 
 
 __INSIGHTS__
+
+__1.__ From the __Figure 1__ we can see the __OEE__ is relatively consistent up until the last day of our history day except for __Line 1 Device 5__
+       This machine has been experiencing a drop in OEE over the last few days of the dataset.
+ 
+__2.__ In the __box plot__ from the __Figure 3__ we can identify anything different with how __Line 1 Device 5__ was operating.
+       The box plot visual shows the operating parameters for each machine in the factory. A boxplot
+       displays the five-number summary of a set of data. The five-number summary is the minimum, first quartile, median, third quartile, and maximum. QuickSight by default removes
+       outliers from the box plot display. We can see here that __line 1 machine 5__ had different operating characteristics than the other machines during the time period we are
+       looking.
+       
+__3.__ We can further investigate to determine, why __line 1 machine 5__ had such different operating parameters. We can add a table visual to see all the operators that have worked          on __line 1 machine 5__. 
+
+![image](https://github.com/AkshayTandulkar/Real-Time_Automotive_OEE_Analysis/assets/42748797/df91fe4e-cc2b-4e0f-90e2-32e4b64a5f89)
+
+<p align="center"> <b> Figure 3 </b> </p>
+
+
  
  
  
