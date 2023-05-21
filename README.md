@@ -97,6 +97,11 @@ __defective_count__ - amount of defects produced at the given time (shown as a d
  __3.__ Create __Dashboard__ to view and analyze historical data.
  
  ![image](https://github.com/AkshayTandulkar/Real-Time_Automotive_OEE_Analysis/assets/42748797/bf742092-bee4-4d6c-a93f-d3ac5a51f6cd)
+ <p align="center"> Figure 1 </p>
+ 
+ ![image](https://github.com/AkshayTandulkar/Real-Time_Automotive_OEE_Analysis/assets/42748797/142db198-9716-40d7-8251-c0688cb85bb6)
+ <p align="center"> Figure 2 </p>
+
 
 __INSIGHTS__
  
