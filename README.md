@@ -51,7 +51,11 @@ defective_count - amount of defects produced at the given time (shown as a decim
 
  ### Data Cleaning
  
- Steps to be followed on AWS DataBrew
+ Steps to be followed on AWS Glue DataBrew:
+ 
+ __1.__ Redact Personally Identifiable Information (PII). Here __operator_name__ and __operator_perno__ columns needs to be redacted.
+ 
+ __2.__ Sort the data in ascending order by __timestamp__ 
  
 
 
