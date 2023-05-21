@@ -124,7 +124,7 @@ __3.__ We can further investigate to determine, why __line 1 machine 5__ had suc
 ![image](https://github.com/AkshayTandulkar/Real-Time_Automotive_OEE_Analysis/assets/42748797/df91fe4e-cc2b-4e0f-90e2-32e4b64a5f89)
 <p align="center"> <b> Figure 4 </b> </p>
 
-In conclusion it was recommended that John must receive more training to reduce the overall amounts of defects. 
+__In conclusion it was recommended that John must receive more training to reduce the overall amounts of defects.__
 
 
  
