@@ -55,8 +55,13 @@ defective_count - amount of defects produced at the given time (shown as a decim
  
  __1.__ Redact Personally Identifiable Information (PII). Here __operator_name__ and __operator_perno__ columns needs to be redacted.
  
- __2.__ Sort the data in ascending order by __timestamp__ 
+ __2.__ Sort the data in ascending order by __timestamp__. 
  
+ __3.__ __Aggregate__ the __units__ produced and __units_target__ by __cumulative sum__ __grouped__ by __machine_manufacturer_id__ column.
+ 
+ __4.__ Select the __machine_manufacturer_id__ column as the first column.
+ 
+ __5.__ __OEE__ is the 
 
 
 
