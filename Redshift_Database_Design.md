@@ -24,3 +24,25 @@ CREATE TABLE public.machine_data (
 
 ```
 
+## Creating View on the table as a data source to be leveraged for reporting by Quicksight 
+```
+CREATE MATERIALIZED VIEW full_machine_data
+AS
+select machine_timestamp,
+machine_manufacturer_id,
+line,
+line_description,
+operator_name,
+operator_perno,
+machine,
+machine_description,
+units_target,
+wire_tension,
+power_unit,
+error_code,
+bit_speed,
+temperature,
+units, 
+oee,       
+defective_count from machine_data;
+```
