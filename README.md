@@ -6,7 +6,7 @@ __Real-time__ performance optimization project encompassing a comprehensive stre
 
 ### Project Objective
 
-An automotive manufacturing company aims to become world class in manufacturing operations. In order to achieve this objective each machine in the factory should achieve Overall Equipment Efficiency (OEE) of 85% or above. OEE is the Key Performance Indicator (KPI) we would track to improve the Overall Operating Efficiency. OEE looks at the cumulative efficiency of machine over time. It focuses on the amount of total units produced against how many of those are considered defects.The company has found that they are close to this operating target but suspect there are certain machines that needs a repair.
+An automotive manufacturing company aims to become world class in manufacturing operations. In order to achieve this objective each machine in the factory should achieve Overall Equipment Efficiency (OEE) of 85% or above. OEE is the Key Performance Indicator (KPI) we would track to improve the Overall Operating Efficiency. OEE looks at the cumulative efficiency of machine over time. It focuses on the amount of total units produced against how many of those are considered defects.The company has found that they are close to this operating target but suspect there are certain machines that don't meet the objective.
 
 * __Part A__ : As a Data Engineer we will store the historical manufacturing data. Then we will create a Glue database to catalog the data. As a Data Analyst we will clean the historical dataset using AWS Glue DataBrew Job.
 
