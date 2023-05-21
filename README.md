@@ -13,7 +13,7 @@ An automotive manufacturing company aims to become world class in manufacturing 
 
 ![image](https://github.com/AkshayTandulkar/Real-Time_Automotive_OEE_Analysis/assets/42748797/0d953654-6493-4108-8933-ff5fd8326d87)
 
-<p align="center"> Image Source : AWS
+<p align="center"> Image Source : AWS </p>
 
 * __Part B__: Live streaming raw data is managed using AWS Kinesis Data Streams, AWS Glue Streaming and persisted in an S3 bucket. The data is cleaned and stored in another S3 bucket.
  Then we will create a Glue database to catalog the data. This is further used by AWS Redshift Serverless for processing and querying. This data is then visualized using Amazon Quicksight, monitored by the Factory Manager.
@@ -24,7 +24,7 @@ An automotive manufacturing company aims to become world class in manufacturing 
 
 ![image](https://github.com/AkshayTandulkar/Real-Time_Automotive_OEE_Analysis/assets/42748797/7749f530-6d5f-4c78-85c6-646e7d7851d7)
 
-<p align="center"> Image Source : AWS
+<p align="center"> Image Source : AWS </p>
 
 ### Dataset Attributes
 
@@ -49,6 +49,10 @@ units - current number of units produced (the machine has the ability to track w
 defective_count - amount of defects produced at the given time (shown as a decimal but can be converted to a percentage).
 ```
 
+ ### Data Cleaning
+ 
+ Steps to be followed on AWS DataBrew
+ 
 
 
 
